@@ -334,8 +334,8 @@ class ValorantCog(commands.Cog, name='Valorant'):
         
         owner_id = 699506279751745557
         owner_url = f'https://discord.com/users/{owner_id}'
-        github_project = 'https://github.com/staciax/ValorantStoreChecker-discord-bot'
-        support_url = 'https://discord.gg/JDvhyYaY'
+        github_project = 'https://github.com/opiscesdev/neon-valorant-store-stats'
+        support_url = 'https://discord.gg/2qxmrtXZ'
         
         embed = discord.Embed(color=0xffffff)
         embed.set_author(name='Neon Valorant Store Checker', url=github_project)
@@ -348,7 +348,7 @@ class ValorantCog(commands.Cog, name='Valorant'):
         view = ui.View()
         view.add_item(ui.Button(label='ᴅᴇᴠ ᴅɪꜱᴄᴏʀᴅ', url=owner_url, emoji='<:stacia_icon:948850880617250837>',row=0))
         view.add_item(ui.Button(label='ɢɪᴛʜᴜʙ', url=github_project, emoji='<:github_icon:966706759697842176>', row=0))
-        view.add_item(ui.Button(label='ꜱᴜᴘᴘᴏʀᴛ ꜱᴇʀᴠᴇʀ', url=support_url, emoji='<:latte_support:941971854728511529>', row=1))
+        #view.add_item(ui.Button(label='ꜱᴜᴘᴘᴏʀᴛ ꜱᴇʀᴠᴇʀ', url=support_url, emoji='<:latte_support:941971854728511529>', row=1))
         view.add_item(ui.Button(label='ᴅᴏɴᴀᴛᴇ', url='https://ko-fi.com/openpisces', emoji='<:kofi:967989830476779620>', row=1))
 
         await interaction.response.send_message(embed=embed, view=view)
