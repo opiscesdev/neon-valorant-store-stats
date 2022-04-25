@@ -332,17 +332,17 @@ class ValorantCog(commands.Cog, name='Valorant'):
     @app_commands.command(description='Shows basic information about the bot.')
     async def about(self, interaction: Interaction) -> None:
         
-        owner_id = 240059262297047041
+        owner_id = 699506279751745557
         owner_url = f'https://discord.com/users/{owner_id}'
         github_project = 'https://github.com/staciax/ValorantStoreChecker-discord-bot'
         support_url = 'https://discord.gg/FJSXPqQZgz'
         
         embed = discord.Embed(color=0xffffff)
-        embed.set_author(name='ᴠᴀʟᴏʀᴀɴᴛ ʙᴏᴛ ᴘʀᴏᴊᴇᴄᴛ', url=github_project)
+        embed.set_author(name='Neon Valorant Store Checker', url=github_project)
         embed.set_thumbnail(url='https://i.imgur.com/ZtuNW0Z.png')
         embed.add_field(
             name='ᴀʙᴏᴜᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ:',
-            value=f"ᴏᴡɴᴇʀ: [ꜱᴛᴀᴄɪᴀ.#7475]({owner_url}, '┐(・。・┐) ♪')",
+            value=f"ᴏᴡɴᴇʀ: [Shahrul.#0774]({owner_url}, '┐(・。・┐) ♪')",
             inline=False
         )
         view = ui.View()
