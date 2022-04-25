@@ -335,11 +335,11 @@ class ValorantCog(commands.Cog, name='Valorant'):
         owner_id = 699506279751745557
         owner_url = f'https://discord.com/users/{owner_id}'
         github_project = 'https://github.com/staciax/ValorantStoreChecker-discord-bot'
-        support_url = 'https://discord.gg/FJSXPqQZgz'
+        support_url = 'https://discord.gg/JDvhyYaY'
         
         embed = discord.Embed(color=0xffffff)
         embed.set_author(name='Neon Valorant Store Checker', url=github_project)
-        embed.set_thumbnail(url='https://i.imgur.com/ZtuNW0Z.png')
+        embed.set_thumbnail(url='https://w0.peakpx.com/wallpaper/304/892/HD-wallpaper-video-game-valorant-neon-valorant.jpg')
         embed.add_field(
             name='ᴀʙᴏᴜᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ:',
             value=f"ᴏᴡɴᴇʀ: [Shahrul.#0774]({owner_url}, '┐(・。・┐) ♪')",
