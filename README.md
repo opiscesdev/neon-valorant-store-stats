@@ -69,26 +69,3 @@ python bot.py
 | `bundles`  | Show the current featured bundles `credit by Giorgio` |
 | `debug`  | command for debug `emoji`, `skin price`,`cache` is not loaded |
 
-## Special thanks
-
-### [Valorant Client API](https://github.com/RumbleMike/ValorantClientAPI) by [RumbleMike](https://github.com/RumbleMike)
-for providing a great API about Valorant!
-
-### [Valorant-API.com](https://valorant-api.com/)
-for every skin names and images!
-
-### [Giorgio](https://github.com/giorgi-o)
-for embed design and helping me and more! <3
-
-### [Discord - Valorant App Developer ](https://discord.gg/a9yzrw3KAm) by [MikeValorantLeaks](https://github.com/RumbleMike)
-developer community for valorant api
-
-### Support Me
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/staciax)
-
-<a href="https://tipme.in.th/renlyx">
-<img link="https://ko-fi.com/staciax" src="https://static.tipme.in.th/img/logo.f8267020b29b.svg" width="170" />
-</a>
-
-<!-- [![Tipme](https://static.tipme.in.th/img/logo.f8267020b29b.svg)](https://ko-fi.com/staciax) -->
