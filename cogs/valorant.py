@@ -350,6 +350,8 @@ class ValorantCog(commands.Cog, name='Valorant'):
         view.add_item(ui.Button(label='ɢɪᴛʜᴜʙ', url=github_project, emoji='<:github_icon:966706759697842176>', row=0))
         #view.add_item(ui.Button(label='ꜱᴜᴘᴘᴏʀᴛ ꜱᴇʀᴠᴇʀ', url=support_url, emoji='<:latte_support:941971854728511529>', row=1))
         view.add_item(ui.Button(label='ᴅᴏɴᴀᴛᴇ', url='https://ko-fi.com/openpisces', emoji='<:kofi:967989830476779620>', row=1))
+        
+        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'R6R6CC6W8');kofiwidget2.draw();</script> 
 
         await interaction.response.send_message(embed=embed, view=view)
 
