@@ -95,7 +95,7 @@ async def sync(ctx: commands.Context, sync_type: str):
         
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="Telu Frank!", type=3)
+    activity = discord.Game(name="Telu Denel!", type=3)
     await bot.change_presence(status=discord.Status.idle, activity=activity)
     print("Bot is ready!")
 
