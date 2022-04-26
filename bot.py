@@ -93,6 +93,8 @@ async def sync(ctx: commands.Context, sync_type: str):
     except discord.HTTPException:
         await ctx.send('Failed to sync.', delete_after=30)
         
+bot = commands.Bot(command_prefix="!", activity=activity, status=discord.Status.idle)
+        
 @bot.event
 async def on_ready():
     activity = discord.Game(name="Telu Denel!", type=3)
