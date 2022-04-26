@@ -70,6 +70,12 @@ class ValorantBot(commands.Bot):
     
 bot = ValorantBot()
 
+@bot.event
+async def on_ready():
+    activity = discord.Game(name="Valorant", type=3)
+    await bot.change_presence(status=discord.Status.idle, activity=activity)
+    print("Bot is ready!")
+
 @bot.command()
 # @commands.is_owner()
 async def sync(ctx: commands.Context, sync_type: str):
