@@ -346,9 +346,9 @@ class ValorantCog(commands.Cog, name='Valorant'):
             inline=False
         )
         view = ui.View()
-        view.add_item(ui.Button(label='Dev Discord 👾', url=owner_url, row=0))
+        view.add_item(ui.Button(label='👾Dev Discord', url=owner_url, row=0))
         view.add_item(ui.Button(label='Github', url=github_project, emoji='<:github_icon:966706759697842176>', row=0))
-        view.add_item(ui.Button(label='Support Server ❤️', url=support_url, row=1))
+        view.add_item(ui.Button(label='❤️Support Server', url=support_url, row=1))
         view.add_item(ui.Button(label='Donate', url='https://ko-fi.com/openpisces', emoji='<:kofi:967989830476779620>', row=1))
         
       
