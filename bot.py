@@ -67,6 +67,9 @@ class ValorantBot(commands.Bot):
     async def on_ready(self) -> None:     
         await self.tree.sync()
         print(f"\nLogged in as: {self.user}\n\n BOT IS READY !")
+        
+PREFIX = ("n!")
+bot = commands.Bot(command_prefix=PREFIX, description='Hi')
     
 bot = ValorantBot()
 
