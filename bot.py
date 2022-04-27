@@ -92,12 +92,6 @@ async def sync(ctx: commands.Context, sync_type: str):
         await ctx.send("Bot don't have permission to sync. : https://cdn.discordapp.com/attachments/939097458288496682/950613059150417970/IMG_3279.png")
     except discord.HTTPException:
         await ctx.send('Failed to sync.', delete_after=30)
-        
-@bot.event
-async def on_ready():
-    activity = discord.Game(name="VALORANT", type=3)
-    await bot.change_presence(status=discord.Status.online, activity=activity)
-    print("Bot is ready!")
 
 @bot.tree.error
 async def tree_error_handler(interaction: Interaction, error: AppCommandError) -> None:
